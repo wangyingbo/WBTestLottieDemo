@@ -6,7 +6,7 @@ target 'WBTestLottieDemo' do
   use_frameworks!
 
   # Pods for WBTestDemo
-  pod 'lottie-ios', '3.2.3'
+  pod 'lottie-ios', '4.0.0'
 
   target 'WBTestLottieDemoTests' do
     inherit! :search_paths
