@@ -1,0 +1,6 @@
+framework module Pods_WBTestLottieDemoTests {
+  umbrella header "Pods-WBTestLottieDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

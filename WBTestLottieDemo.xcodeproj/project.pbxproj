@@ -1,0 +1,910 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F6C40524DF323E57993C595 /* Pods_WBTestLottieDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD7857755DE747D896EFCCD /* Pods_WBTestLottieDemo.framework */; };
+		A41C9EDA29C840E1002BB5CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A41C9ED929C840E1002BB5CA /* AppDelegate.m */; };
+		A41C9EDD29C840E1002BB5CA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A41C9EDC29C840E1002BB5CA /* SceneDelegate.m */; };
+		A41C9EE029C840E1002BB5CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A41C9EDF29C840E1002BB5CA /* ViewController.m */; };
+		A41C9EE329C840E1002BB5CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41C9EE129C840E1002BB5CA /* Main.storyboard */; };
+		A41C9EE529C840E3002BB5CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A41C9EE429C840E3002BB5CA /* Assets.xcassets */; };
+		A41C9EE829C840E3002BB5CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41C9EE629C840E3002BB5CA /* LaunchScreen.storyboard */; };
+		A41C9EEB29C840E3002BB5CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A41C9EEA29C840E3002BB5CA /* main.m */; };
+		A41C9EF529C840E3002BB5CA /* WBTestLottieDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A41C9EF429C840E3002BB5CA /* WBTestLottieDemoTests.m */; };
+		A41C9EFF29C840E3002BB5CA /* WBTestLottieDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A41C9EFE29C840E3002BB5CA /* WBTestLottieDemoUITests.m */; };
+		A41C9F0129C840E3002BB5CA /* WBTestLottieDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A41C9F0029C840E3002BB5CA /* WBTestLottieDemoUITestsLaunchTests.m */; };
+		A41C9F3B29C84988002BB5CA /* forward_redpacket_img_0.png in Resources */ = {isa = PBXBuildFile; fileRef = A41C9F1129C84988002BB5CA /* forward_redpacket_img_0.png */; };
+		A41C9F3C29C84988002BB5CA /* forward_redpacket_img_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A41C9F1229C84988002BB5CA /* forward_redpacket_img_1.png */; };
+		A41C9F3D29C84988002BB5CA /* Precomp1.json in Resources */ = {isa = PBXBuildFile; fileRef = A41C9F1329C84988002BB5CA /* Precomp1.json */; };
+		A41C9F3E29C84988002BB5CA /* story_play_follow.json in Resources */ = {isa = PBXBuildFile; fileRef = A41C9F1429C84988002BB5CA /* story_play_follow.json */; };
+		A41C9F3F29C84988002BB5CA /* forward_redpacket.json in Resources */ = {isa = PBXBuildFile; fileRef = A41C9F1529C84988002BB5CA /* forward_redpacket.json */; };
+		A41C9F4029C84988002BB5CA /* video_lottie_lucky_money_animate.json in Resources */ = {isa = PBXBuildFile; fileRef = A41C9F1629C84988002BB5CA /* video_lottie_lucky_money_animate.json */; };
+		A41C9F4729C84988002BB5CA /* img_10.png in Resources */ = {isa = PBXBuildFile; fileRef = A41C9F2329C84988002BB5CA /* img_10.png */; };
+		A41C9F4829C84988002BB5CA /* img_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A41C9F2429C84988002BB5CA /* img_1.png */; };
+		A41C9F4929C84988002BB5CA /* img_0.png in Resources */ = {isa = PBXBuildFile; fileRef = A41C9F2529C84988002BB5CA /* img_0.png */; };
+		A41C9F4A29C84988002BB5CA /* img_11.png in Resources */ = {isa = PBXBuildFile; fileRef = A41C9F2629C84988002BB5CA /* img_11.png */; };
+		A41C9F4B29C84988002BB5CA /* img_13.png in Resources */ = {isa = PBXBuildFile; fileRef = A41C9F2729C84988002BB5CA /* img_13.png */; };
+		A41C9F4C29C84988002BB5CA /* img_2.png in Resources */ = {isa = PBXBuildFile; fileRef = A41C9F2829C84988002BB5CA /* img_2.png */; };
+		A41C9F4D29C84988002BB5CA /* img_3.png in Resources */ = {isa = PBXBuildFile; fileRef = A41C9F2929C84988002BB5CA /* img_3.png */; };
+		A41C9F4E29C84988002BB5CA /* img_12.png in Resources */ = {isa = PBXBuildFile; fileRef = A41C9F2A29C84988002BB5CA /* img_12.png */; };
+		A41C9F4F29C84988002BB5CA /* img_16.png in Resources */ = {isa = PBXBuildFile; fileRef = A41C9F2B29C84988002BB5CA /* img_16.png */; };
+		A41C9F5029C84988002BB5CA /* img_7.png in Resources */ = {isa = PBXBuildFile; fileRef = A41C9F2C29C84988002BB5CA /* img_7.png */; };
+		A41C9F5129C84988002BB5CA /* img_6.png in Resources */ = {isa = PBXBuildFile; fileRef = A41C9F2D29C84988002BB5CA /* img_6.png */; };
+		A41C9F5229C84988002BB5CA /* img_15.png in Resources */ = {isa = PBXBuildFile; fileRef = A41C9F2E29C84988002BB5CA /* img_15.png */; };
+		A41C9F5329C84988002BB5CA /* img_4.png in Resources */ = {isa = PBXBuildFile; fileRef = A41C9F2F29C84988002BB5CA /* img_4.png */; };
+		A41C9F5429C84988002BB5CA /* img_5.png in Resources */ = {isa = PBXBuildFile; fileRef = A41C9F3029C84988002BB5CA /* img_5.png */; };
+		A41C9F5529C84988002BB5CA /* img_14.png in Resources */ = {isa = PBXBuildFile; fileRef = A41C9F3129C84988002BB5CA /* img_14.png */; };
+		A41C9F5629C84988002BB5CA /* img_8.png in Resources */ = {isa = PBXBuildFile; fileRef = A41C9F3229C84988002BB5CA /* img_8.png */; };
+		A41C9F5729C84988002BB5CA /* img_9.png in Resources */ = {isa = PBXBuildFile; fileRef = A41C9F3329C84988002BB5CA /* img_9.png */; };
+		A41C9F5829C84988002BB5CA /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A41C9F3429C84988002BB5CA /* data.json */; };
+		A41C9F5A29C84988002BB5CA /* WBVideoLottieHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A41C9F3929C84988002BB5CA /* WBVideoLottieHelper.m */; };
+		A41C9F5B29C84988002BB5CA /* YBTestLottieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A41C9F3A29C84988002BB5CA /* YBTestLottieViewController.m */; };
+		E82658DD9B3B7EA2FBA206D0 /* Pods_WBTestLottieDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CABC138F6005D423F8038B2 /* Pods_WBTestLottieDemoTests.framework */; };
+		F214AA811D6AE604A722DCBA /* Pods_WBTestLottieDemo_WBTestLottieDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5E214B884501B1A26387C6 /* Pods_WBTestLottieDemo_WBTestLottieDemoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A41C9EF129C840E3002BB5CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A41C9ECD29C840E1002BB5CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A41C9ED429C840E1002BB5CA;
+			remoteInfo = WBTestLottieDemo;
+		};
+		A41C9EFB29C840E3002BB5CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A41C9ECD29C840E1002BB5CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A41C9ED429C840E1002BB5CA;
+			remoteInfo = WBTestLottieDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AC5A70259AB311E32373B64 /* Pods-WBTestLottieDemo-WBTestLottieDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBTestLottieDemo-WBTestLottieDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-WBTestLottieDemo-WBTestLottieDemoUITests/Pods-WBTestLottieDemo-WBTestLottieDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2CD7857755DE747D896EFCCD /* Pods_WBTestLottieDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WBTestLottieDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E85DAEC91F041963E5F4D17 /* Pods-WBTestLottieDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBTestLottieDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-WBTestLottieDemoTests/Pods-WBTestLottieDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		57C9397B283778E74BE82EB2 /* Pods-WBTestLottieDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBTestLottieDemo.release.xcconfig"; path = "Target Support Files/Pods-WBTestLottieDemo/Pods-WBTestLottieDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6CABC138F6005D423F8038B2 /* Pods_WBTestLottieDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WBTestLottieDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41C9ED529C840E1002BB5CA /* WBTestLottieDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBTestLottieDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41C9ED829C840E1002BB5CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A41C9ED929C840E1002BB5CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A41C9EDB29C840E1002BB5CA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A41C9EDC29C840E1002BB5CA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A41C9EDE29C840E1002BB5CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A41C9EDF29C840E1002BB5CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A41C9EE229C840E1002BB5CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A41C9EE429C840E3002BB5CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A41C9EE729C840E3002BB5CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A41C9EE929C840E3002BB5CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A41C9EEA29C840E3002BB5CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A41C9EF029C840E3002BB5CA /* WBTestLottieDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBTestLottieDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41C9EF429C840E3002BB5CA /* WBTestLottieDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBTestLottieDemoTests.m; sourceTree = "<group>"; };
+		A41C9EFA29C840E3002BB5CA /* WBTestLottieDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBTestLottieDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41C9EFE29C840E3002BB5CA /* WBTestLottieDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBTestLottieDemoUITests.m; sourceTree = "<group>"; };
+		A41C9F0029C840E3002BB5CA /* WBTestLottieDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBTestLottieDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		A41C9F1129C84988002BB5CA /* forward_redpacket_img_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward_redpacket_img_0.png; sourceTree = "<group>"; };
+		A41C9F1229C84988002BB5CA /* forward_redpacket_img_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward_redpacket_img_1.png; sourceTree = "<group>"; };
+		A41C9F1329C84988002BB5CA /* Precomp1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Precomp1.json; sourceTree = "<group>"; };
+		A41C9F1429C84988002BB5CA /* story_play_follow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = story_play_follow.json; sourceTree = "<group>"; };
+		A41C9F1529C84988002BB5CA /* forward_redpacket.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = forward_redpacket.json; sourceTree = "<group>"; };
+		A41C9F1629C84988002BB5CA /* video_lottie_lucky_money_animate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = video_lottie_lucky_money_animate.json; sourceTree = "<group>"; };
+		A41C9F2329C84988002BB5CA /* img_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_10.png; sourceTree = "<group>"; };
+		A41C9F2429C84988002BB5CA /* img_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_1.png; sourceTree = "<group>"; };
+		A41C9F2529C84988002BB5CA /* img_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_0.png; sourceTree = "<group>"; };
+		A41C9F2629C84988002BB5CA /* img_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_11.png; sourceTree = "<group>"; };
+		A41C9F2729C84988002BB5CA /* img_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_13.png; sourceTree = "<group>"; };
+		A41C9F2829C84988002BB5CA /* img_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_2.png; sourceTree = "<group>"; };
+		A41C9F2929C84988002BB5CA /* img_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_3.png; sourceTree = "<group>"; };
+		A41C9F2A29C84988002BB5CA /* img_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_12.png; sourceTree = "<group>"; };
+		A41C9F2B29C84988002BB5CA /* img_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_16.png; sourceTree = "<group>"; };
+		A41C9F2C29C84988002BB5CA /* img_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_7.png; sourceTree = "<group>"; };
+		A41C9F2D29C84988002BB5CA /* img_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_6.png; sourceTree = "<group>"; };
+		A41C9F2E29C84988002BB5CA /* img_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_15.png; sourceTree = "<group>"; };
+		A41C9F2F29C84988002BB5CA /* img_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_4.png; sourceTree = "<group>"; };
+		A41C9F3029C84988002BB5CA /* img_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_5.png; sourceTree = "<group>"; };
+		A41C9F3129C84988002BB5CA /* img_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_14.png; sourceTree = "<group>"; };
+		A41C9F3229C84988002BB5CA /* img_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_8.png; sourceTree = "<group>"; };
+		A41C9F3329C84988002BB5CA /* img_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_9.png; sourceTree = "<group>"; };
+		A41C9F3429C84988002BB5CA /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		A41C9F3529C84988002BB5CA /* YBTestLottieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBTestLottieViewController.h; sourceTree = "<group>"; };
+		A41C9F3829C84988002BB5CA /* WBVideoLottieHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBVideoLottieHelper.h; sourceTree = "<group>"; };
+		A41C9F3929C84988002BB5CA /* WBVideoLottieHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBVideoLottieHelper.m; sourceTree = "<group>"; };
+		A41C9F3A29C84988002BB5CA /* YBTestLottieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBTestLottieViewController.m; sourceTree = "<group>"; };
+		A93D1312353A5809BD1C5638 /* Pods-WBTestLottieDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBTestLottieDemo.debug.xcconfig"; path = "Target Support Files/Pods-WBTestLottieDemo/Pods-WBTestLottieDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CF5E214B884501B1A26387C6 /* Pods_WBTestLottieDemo_WBTestLottieDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WBTestLottieDemo_WBTestLottieDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F313A20DA1D3AEAFD824D9F9 /* Pods-WBTestLottieDemo-WBTestLottieDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBTestLottieDemo-WBTestLottieDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-WBTestLottieDemo-WBTestLottieDemoUITests/Pods-WBTestLottieDemo-WBTestLottieDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD0305A8B8EA9B25B20E9D02 /* Pods-WBTestLottieDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBTestLottieDemoTests.release.xcconfig"; path = "Target Support Files/Pods-WBTestLottieDemoTests/Pods-WBTestLottieDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A41C9ED229C840E1002BB5CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6C40524DF323E57993C595 /* Pods_WBTestLottieDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A41C9EED29C840E3002BB5CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E82658DD9B3B7EA2FBA206D0 /* Pods_WBTestLottieDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A41C9EF729C840E3002BB5CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F214AA811D6AE604A722DCBA /* Pods_WBTestLottieDemo_WBTestLottieDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		168713E634F9E24D93087D64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CD7857755DE747D896EFCCD /* Pods_WBTestLottieDemo.framework */,
+				CF5E214B884501B1A26387C6 /* Pods_WBTestLottieDemo_WBTestLottieDemoUITests.framework */,
+				6CABC138F6005D423F8038B2 /* Pods_WBTestLottieDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48D5916626DCBCC52B2B6572 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A93D1312353A5809BD1C5638 /* Pods-WBTestLottieDemo.debug.xcconfig */,
+				57C9397B283778E74BE82EB2 /* Pods-WBTestLottieDemo.release.xcconfig */,
+				F313A20DA1D3AEAFD824D9F9 /* Pods-WBTestLottieDemo-WBTestLottieDemoUITests.debug.xcconfig */,
+				1AC5A70259AB311E32373B64 /* Pods-WBTestLottieDemo-WBTestLottieDemoUITests.release.xcconfig */,
+				4E85DAEC91F041963E5F4D17 /* Pods-WBTestLottieDemoTests.debug.xcconfig */,
+				FD0305A8B8EA9B25B20E9D02 /* Pods-WBTestLottieDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A41C9ECC29C840E1002BB5CA = {
+			isa = PBXGroup;
+			children = (
+				A41C9ED729C840E1002BB5CA /* WBTestLottieDemo */,
+				A41C9EF329C840E3002BB5CA /* WBTestLottieDemoTests */,
+				A41C9EFD29C840E3002BB5CA /* WBTestLottieDemoUITests */,
+				A41C9ED629C840E1002BB5CA /* Products */,
+				48D5916626DCBCC52B2B6572 /* Pods */,
+				168713E634F9E24D93087D64 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A41C9ED629C840E1002BB5CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A41C9ED529C840E1002BB5CA /* WBTestLottieDemo.app */,
+				A41C9EF029C840E3002BB5CA /* WBTestLottieDemoTests.xctest */,
+				A41C9EFA29C840E3002BB5CA /* WBTestLottieDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A41C9ED729C840E1002BB5CA /* WBTestLottieDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A41C9F0D29C84988002BB5CA /* YBTestLottieModule */,
+				A41C9ED829C840E1002BB5CA /* AppDelegate.h */,
+				A41C9ED929C840E1002BB5CA /* AppDelegate.m */,
+				A41C9EDB29C840E1002BB5CA /* SceneDelegate.h */,
+				A41C9EDC29C840E1002BB5CA /* SceneDelegate.m */,
+				A41C9EDE29C840E1002BB5CA /* ViewController.h */,
+				A41C9EDF29C840E1002BB5CA /* ViewController.m */,
+				A41C9EE129C840E1002BB5CA /* Main.storyboard */,
+				A41C9EE429C840E3002BB5CA /* Assets.xcassets */,
+				A41C9EE629C840E3002BB5CA /* LaunchScreen.storyboard */,
+				A41C9EE929C840E3002BB5CA /* Info.plist */,
+				A41C9EEA29C840E3002BB5CA /* main.m */,
+			);
+			path = WBTestLottieDemo;
+			sourceTree = "<group>";
+		};
+		A41C9EF329C840E3002BB5CA /* WBTestLottieDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A41C9EF429C840E3002BB5CA /* WBTestLottieDemoTests.m */,
+			);
+			path = WBTestLottieDemoTests;
+			sourceTree = "<group>";
+		};
+		A41C9EFD29C840E3002BB5CA /* WBTestLottieDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A41C9EFE29C840E3002BB5CA /* WBTestLottieDemoUITests.m */,
+				A41C9F0029C840E3002BB5CA /* WBTestLottieDemoUITestsLaunchTests.m */,
+			);
+			path = WBTestLottieDemoUITests;
+			sourceTree = "<group>";
+		};
+		A41C9F0D29C84988002BB5CA /* YBTestLottieModule */ = {
+			isa = PBXGroup;
+			children = (
+				A41C9F3729C84988002BB5CA /* LottieHelper */,
+				A41C9F0F29C84988002BB5CA /* Resources */,
+				A41C9F3529C84988002BB5CA /* YBTestLottieViewController.h */,
+				A41C9F3A29C84988002BB5CA /* YBTestLottieViewController.m */,
+			);
+			path = YBTestLottieModule;
+			sourceTree = "<group>";
+		};
+		A41C9F0F29C84988002BB5CA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A41C9F1029C84988002BB5CA /* forwardredpacketimages */,
+				A41C9F1329C84988002BB5CA /* Precomp1.json */,
+				A41C9F1429C84988002BB5CA /* story_play_follow.json */,
+				A41C9F1529C84988002BB5CA /* forward_redpacket.json */,
+				A41C9F1629C84988002BB5CA /* video_lottie_lucky_money_animate.json */,
+				A41C9F2129C84988002BB5CA /* origin_one_circle_lottie */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A41C9F1029C84988002BB5CA /* forwardredpacketimages */ = {
+			isa = PBXGroup;
+			children = (
+				A41C9F1129C84988002BB5CA /* forward_redpacket_img_0.png */,
+				A41C9F1229C84988002BB5CA /* forward_redpacket_img_1.png */,
+			);
+			path = forwardredpacketimages;
+			sourceTree = "<group>";
+		};
+		A41C9F2129C84988002BB5CA /* origin_one_circle_lottie */ = {
+			isa = PBXGroup;
+			children = (
+				A41C9F2229C84988002BB5CA /* images */,
+				A41C9F3429C84988002BB5CA /* data.json */,
+			);
+			path = origin_one_circle_lottie;
+			sourceTree = "<group>";
+		};
+		A41C9F2229C84988002BB5CA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A41C9F2329C84988002BB5CA /* img_10.png */,
+				A41C9F2429C84988002BB5CA /* img_1.png */,
+				A41C9F2529C84988002BB5CA /* img_0.png */,
+				A41C9F2629C84988002BB5CA /* img_11.png */,
+				A41C9F2729C84988002BB5CA /* img_13.png */,
+				A41C9F2829C84988002BB5CA /* img_2.png */,
+				A41C9F2929C84988002BB5CA /* img_3.png */,
+				A41C9F2A29C84988002BB5CA /* img_12.png */,
+				A41C9F2B29C84988002BB5CA /* img_16.png */,
+				A41C9F2C29C84988002BB5CA /* img_7.png */,
+				A41C9F2D29C84988002BB5CA /* img_6.png */,
+				A41C9F2E29C84988002BB5CA /* img_15.png */,
+				A41C9F2F29C84988002BB5CA /* img_4.png */,
+				A41C9F3029C84988002BB5CA /* img_5.png */,
+				A41C9F3129C84988002BB5CA /* img_14.png */,
+				A41C9F3229C84988002BB5CA /* img_8.png */,
+				A41C9F3329C84988002BB5CA /* img_9.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		A41C9F3729C84988002BB5CA /* LottieHelper */ = {
+			isa = PBXGroup;
+			children = (
+				A41C9F3829C84988002BB5CA /* WBVideoLottieHelper.h */,
+				A41C9F3929C84988002BB5CA /* WBVideoLottieHelper.m */,
+			);
+			path = LottieHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A41C9ED429C840E1002BB5CA /* WBTestLottieDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A41C9F0429C840E3002BB5CA /* Build configuration list for PBXNativeTarget "WBTestLottieDemo" */;
+			buildPhases = (
+				6C6844D3D9DDAA4176225793 /* [CP] Check Pods Manifest.lock */,
+				A41C9ED129C840E1002BB5CA /* Sources */,
+				A41C9ED229C840E1002BB5CA /* Frameworks */,
+				A41C9ED329C840E1002BB5CA /* Resources */,
+				B1FF1FA1C3DCB54E4FA745C0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WBTestLottieDemo;
+			productName = WBTestLottieDemo;
+			productReference = A41C9ED529C840E1002BB5CA /* WBTestLottieDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A41C9EEF29C840E3002BB5CA /* WBTestLottieDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A41C9F0729C840E3002BB5CA /* Build configuration list for PBXNativeTarget "WBTestLottieDemoTests" */;
+			buildPhases = (
+				FF5223D239FA1075CDE31678 /* [CP] Check Pods Manifest.lock */,
+				A41C9EEC29C840E3002BB5CA /* Sources */,
+				A41C9EED29C840E3002BB5CA /* Frameworks */,
+				A41C9EEE29C840E3002BB5CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A41C9EF229C840E3002BB5CA /* PBXTargetDependency */,
+			);
+			name = WBTestLottieDemoTests;
+			productName = WBTestLottieDemoTests;
+			productReference = A41C9EF029C840E3002BB5CA /* WBTestLottieDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A41C9EF929C840E3002BB5CA /* WBTestLottieDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A41C9F0A29C840E3002BB5CA /* Build configuration list for PBXNativeTarget "WBTestLottieDemoUITests" */;
+			buildPhases = (
+				1BAEF7E39F11DDF7D0DA3D1F /* [CP] Check Pods Manifest.lock */,
+				A41C9EF629C840E3002BB5CA /* Sources */,
+				A41C9EF729C840E3002BB5CA /* Frameworks */,
+				A41C9EF829C840E3002BB5CA /* Resources */,
+				F67F97C623EF4BFB9E8E7A2F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A41C9EFC29C840E3002BB5CA /* PBXTargetDependency */,
+			);
+			name = WBTestLottieDemoUITests;
+			productName = WBTestLottieDemoUITests;
+			productReference = A41C9EFA29C840E3002BB5CA /* WBTestLottieDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A41C9ECD29C840E1002BB5CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A41C9ED429C840E1002BB5CA = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					A41C9EEF29C840E3002BB5CA = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A41C9ED429C840E1002BB5CA;
+					};
+					A41C9EF929C840E3002BB5CA = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A41C9ED429C840E1002BB5CA;
+					};
+				};
+			};
+			buildConfigurationList = A41C9ED029C840E1002BB5CA /* Build configuration list for PBXProject "WBTestLottieDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A41C9ECC29C840E1002BB5CA;
+			productRefGroup = A41C9ED629C840E1002BB5CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A41C9ED429C840E1002BB5CA /* WBTestLottieDemo */,
+				A41C9EEF29C840E3002BB5CA /* WBTestLottieDemoTests */,
+				A41C9EF929C840E3002BB5CA /* WBTestLottieDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A41C9ED329C840E1002BB5CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41C9F4F29C84988002BB5CA /* img_16.png in Resources */,
+				A41C9F4029C84988002BB5CA /* video_lottie_lucky_money_animate.json in Resources */,
+				A41C9F4B29C84988002BB5CA /* img_13.png in Resources */,
+				A41C9F3B29C84988002BB5CA /* forward_redpacket_img_0.png in Resources */,
+				A41C9F5129C84988002BB5CA /* img_6.png in Resources */,
+				A41C9EE829C840E3002BB5CA /* LaunchScreen.storyboard in Resources */,
+				A41C9F3D29C84988002BB5CA /* Precomp1.json in Resources */,
+				A41C9F3C29C84988002BB5CA /* forward_redpacket_img_1.png in Resources */,
+				A41C9F4929C84988002BB5CA /* img_0.png in Resources */,
+				A41C9F5329C84988002BB5CA /* img_4.png in Resources */,
+				A41C9F5029C84988002BB5CA /* img_7.png in Resources */,
+				A41C9EE529C840E3002BB5CA /* Assets.xcassets in Resources */,
+				A41C9F4C29C84988002BB5CA /* img_2.png in Resources */,
+				A41C9F3F29C84988002BB5CA /* forward_redpacket.json in Resources */,
+				A41C9F5729C84988002BB5CA /* img_9.png in Resources */,
+				A41C9F4E29C84988002BB5CA /* img_12.png in Resources */,
+				A41C9F4729C84988002BB5CA /* img_10.png in Resources */,
+				A41C9F5229C84988002BB5CA /* img_15.png in Resources */,
+				A41C9F5829C84988002BB5CA /* data.json in Resources */,
+				A41C9F5429C84988002BB5CA /* img_5.png in Resources */,
+				A41C9EE329C840E1002BB5CA /* Main.storyboard in Resources */,
+				A41C9F4829C84988002BB5CA /* img_1.png in Resources */,
+				A41C9F5529C84988002BB5CA /* img_14.png in Resources */,
+				A41C9F4A29C84988002BB5CA /* img_11.png in Resources */,
+				A41C9F5629C84988002BB5CA /* img_8.png in Resources */,
+				A41C9F3E29C84988002BB5CA /* story_play_follow.json in Resources */,
+				A41C9F4D29C84988002BB5CA /* img_3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A41C9EEE29C840E3002BB5CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A41C9EF829C840E3002BB5CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BAEF7E39F11DDF7D0DA3D1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WBTestLottieDemo-WBTestLottieDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C6844D3D9DDAA4176225793 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WBTestLottieDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1FF1FA1C3DCB54E4FA745C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WBTestLottieDemo/Pods-WBTestLottieDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WBTestLottieDemo/Pods-WBTestLottieDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WBTestLottieDemo/Pods-WBTestLottieDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F67F97C623EF4BFB9E8E7A2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WBTestLottieDemo-WBTestLottieDemoUITests/Pods-WBTestLottieDemo-WBTestLottieDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WBTestLottieDemo-WBTestLottieDemoUITests/Pods-WBTestLottieDemo-WBTestLottieDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WBTestLottieDemo-WBTestLottieDemoUITests/Pods-WBTestLottieDemo-WBTestLottieDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF5223D239FA1075CDE31678 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WBTestLottieDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A41C9ED129C840E1002BB5CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41C9F5B29C84988002BB5CA /* YBTestLottieViewController.m in Sources */,
+				A41C9EE029C840E1002BB5CA /* ViewController.m in Sources */,
+				A41C9EDA29C840E1002BB5CA /* AppDelegate.m in Sources */,
+				A41C9EEB29C840E3002BB5CA /* main.m in Sources */,
+				A41C9F5A29C84988002BB5CA /* WBVideoLottieHelper.m in Sources */,
+				A41C9EDD29C840E1002BB5CA /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A41C9EEC29C840E3002BB5CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41C9EF529C840E3002BB5CA /* WBTestLottieDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A41C9EF629C840E3002BB5CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41C9EFF29C840E3002BB5CA /* WBTestLottieDemoUITests.m in Sources */,
+				A41C9F0129C840E3002BB5CA /* WBTestLottieDemoUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A41C9EF229C840E3002BB5CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A41C9ED429C840E1002BB5CA /* WBTestLottieDemo */;
+			targetProxy = A41C9EF129C840E3002BB5CA /* PBXContainerItemProxy */;
+		};
+		A41C9EFC29C840E3002BB5CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A41C9ED429C840E1002BB5CA /* WBTestLottieDemo */;
+			targetProxy = A41C9EFB29C840E3002BB5CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A41C9EE129C840E1002BB5CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A41C9EE229C840E1002BB5CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A41C9EE629C840E3002BB5CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A41C9EE729C840E3002BB5CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A41C9F0229C840E3002BB5CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A41C9F0329C840E3002BB5CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A41C9F0529C840E3002BB5CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A93D1312353A5809BD1C5638 /* Pods-WBTestLottieDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CFFSMF38MA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WBTestLottieDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyb.www.WBTestLottieDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A41C9F0629C840E3002BB5CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57C9397B283778E74BE82EB2 /* Pods-WBTestLottieDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CFFSMF38MA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WBTestLottieDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyb.www.WBTestLottieDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A41C9F0829C840E3002BB5CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E85DAEC91F041963E5F4D17 /* Pods-WBTestLottieDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyb.www.WBTestLottieDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WBTestLottieDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WBTestLottieDemo";
+			};
+			name = Debug;
+		};
+		A41C9F0929C840E3002BB5CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD0305A8B8EA9B25B20E9D02 /* Pods-WBTestLottieDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyb.www.WBTestLottieDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WBTestLottieDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WBTestLottieDemo";
+			};
+			name = Release;
+		};
+		A41C9F0B29C840E3002BB5CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F313A20DA1D3AEAFD824D9F9 /* Pods-WBTestLottieDemo-WBTestLottieDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyb.www.WBTestLottieDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WBTestLottieDemo;
+			};
+			name = Debug;
+		};
+		A41C9F0C29C840E3002BB5CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AC5A70259AB311E32373B64 /* Pods-WBTestLottieDemo-WBTestLottieDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyb.www.WBTestLottieDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WBTestLottieDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A41C9ED029C840E1002BB5CA /* Build configuration list for PBXProject "WBTestLottieDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A41C9F0229C840E3002BB5CA /* Debug */,
+				A41C9F0329C840E3002BB5CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A41C9F0429C840E3002BB5CA /* Build configuration list for PBXNativeTarget "WBTestLottieDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A41C9F0529C840E3002BB5CA /* Debug */,
+				A41C9F0629C840E3002BB5CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A41C9F0729C840E3002BB5CA /* Build configuration list for PBXNativeTarget "WBTestLottieDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A41C9F0829C840E3002BB5CA /* Debug */,
+				A41C9F0929C840E3002BB5CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A41C9F0A29C840E3002BB5CA /* Build configuration list for PBXNativeTarget "WBTestLottieDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A41C9F0B29C840E3002BB5CA /* Debug */,
+				A41C9F0C29C840E3002BB5CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A41C9ECD29C840E1002BB5CA /* Project object */;
+}
