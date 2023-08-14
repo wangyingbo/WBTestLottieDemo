@@ -45,7 +45,7 @@ public final class CompatibleAnimation: NSObject {
     }
 
   @objc
-  static func named(_ name: String) -> CompatibleAnimation {
+  public static func named(_ name: String) -> CompatibleAnimation {
     CompatibleAnimation(name: name)
   }
 
